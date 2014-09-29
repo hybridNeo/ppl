@@ -13,7 +13,7 @@ double getInput(){
   return d;
 }
 int main(void){
-	double (*func1)(double) = cm_to_inches;
+	double (*func1)(double) = cm_to_inches;ls
   double (*getIn)(void) = getInput;
   printf("%f \n",(func1)((getIn)()));  
   void (*func2)(void) = foo;
