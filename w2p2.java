@@ -7,8 +7,6 @@ public class w2p2{
 			}
 	}
 	public static void main(String[] args){
-		System.out.println("Hello");
-		
 	  class NestedClass{
 			public String a = "Hello";
 		

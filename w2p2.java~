@@ -6,18 +6,17 @@ public class w2p2{
 			System.out.println(a);
 			}
 	}
-	public static void main(String[] args){
-		System.out.println("Hello");
-		static int a =100;
-	  class NestedClass{
+	class NestedClass{
 			public String a = "Hello";
 		
 			public void foo(){
-				System.out.println(a+"Booo\n");
+				System.out.println("Booo\n");
 			}
 		}
 		
-		NestedClass n = new NestedClass();
+	public static void main(String[] args){
+	  
+		w2p2.NestedClass n = new w2p2.NestedClass();
 		n.foo();
 		StaticNested s = new StaticNested();
 		s.footer();	
